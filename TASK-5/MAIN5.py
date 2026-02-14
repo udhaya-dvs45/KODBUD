@@ -13,7 +13,7 @@ def get_current_time():
 # Function to get weather
 # -------------------------
 def get_weather(city="Chennai"):
-    api_key = "e6b66a5b8c7eeeca63e1cda0b2696c35" # Replace with your OpenWeatherMap API key
+    api_key = "************************" # Replace with your OpenWeatherMap API key
     base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     try:
         response = requests.get(base_url).json()
